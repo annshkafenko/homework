@@ -24,4 +24,3 @@ elif (str(opr) == str(de)):
     b = float(input("Введи друге число"))
     print(a / b)
 else:print("Я поки що не можу виконати таку операцію")
-print("Бувай!")
