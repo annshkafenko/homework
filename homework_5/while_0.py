@@ -1,11 +1,12 @@
-
 n = int(input("Введіть ціле число: "))
+
 total = n
 middle = 1
 maximum = n
 minimum = n
 paired = 0
 unpaired = 0
+
 if n == 0:
     print("Перше число не може дорівнювати 0")
 else:
@@ -29,9 +30,9 @@ while True:
         else:
             unpaired += 1
 
-print(total)
-print(total / middle)
-print(maximum)
-print(minimum)
-print(paired)
-print(unpaired)
+print("Сумма: ", total)
+print("Середнє значення: ", total / middle)
+print("Максимальне значення: ", maximum)
+print("Мінімальне значення: ", minimum)
+print("Кіл-сть парних: ", paired)
+print("Кіл-сть непарних: ", unpaired)
