@@ -8,4 +8,13 @@
 #     print("I`M HERE", cnt)
 # else:
 #     print("Hi")
-
+b = 0
+n = input("Введіть число від 3 до 9: ")
+if n.isdigit():
+    n = int(n) + b
+    if 9 >= n >= 3:
+        print("ok")
+    else:
+        print("xyu")
+else:
+    print("no")
