@@ -28,21 +28,20 @@
 
 import time
 
+cnt = 0
 for i in range(10):
     if i % 2:
         print('\U0001FAF5', end='\r')
         time.sleep(1)
+        cnt += 1
+        print("+", cnt)
     if i % 3:
         print('\U0001F440', end='\r')
         time.sleep(1)
+        cnt -= 1
+        print("-", cnt)
     else:
         print('\U0000270B', end='\r')
         time.sleep(1)
-
-# табуляція
-' '
-" "
-""" okfokofkoko
- jjojfojoj
- fjojsojf
- kfks-kk-k-kpsk """
+        cnt *= 2
+        print("*2", cnt)
